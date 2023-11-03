@@ -1,0 +1,9 @@
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 99.9%; 
+    height: 100vh;
+    overflow-y: scroll; 
+    border-radius: 5px;
+}

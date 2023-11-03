@@ -1,0 +1,27 @@
+.divHeader1{
+    display: flex;
+    justify-content:space-around ;
+
+}
+.divHeader1 div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+}
+
+.divHeader2 {
+    display: flex;
+    justify-content: space-around;
+    color: #13544e;
+    background-color:#d5e0d5;
+
+}
+h1{
+    color: #14a800;
+}
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0;
+}
