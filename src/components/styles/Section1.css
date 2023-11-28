@@ -1,10 +1,10 @@
 .section1{
     display: flex;
-    width: 80%;
+    width: 88%;
     margin: 2vh 10vw;
 }
 .section1 div{
-    background-color: #d5e0d5;
+    border-radius: 2px;
     padding-top: 1vh;
     padding-bottom: 1vh;
     font-size: 1.5rem;
@@ -12,14 +12,36 @@
     flex-wrap: wrap;
     border-radius: 5px;
     margin-left: -10px;
-    color: #13544e;
+    font-size: 40px;
 }
 .section1 img{
-    width: 50%;
-    height: 100%;
+    width: 20vw;
+    height: 50vh;
     border-radius: 50%;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.divcard{
+    display: flex;
+    flex-wrap: wrap;    
+    padding-left: 25vh;
+}
+
+.card{
+    border-radius:5px;
+    margin: 2px;
+    border: 2px solid #00BF62;
+    width: 45%;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.707);
+    text-shadow: 1px 1px 1px #00BF62;
 
 }
-.sec1{
-    order: 2;
+
+.listL{
+    text-align: left;
 }

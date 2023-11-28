@@ -1,0 +1,22 @@
+.secLogin{
+    display: flex;
+    width: 80%;
+    margin: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.secLogin img{
+    width: 70%;
+}
+
+.div2{
+    width: 50%;
+    margin-bottom: 21vh;
+}
+.div2 form{
+    margin-left: 5vh;
+    width: 80%;
+    border-radius: 50px;
+    padding: 10vh;
+}

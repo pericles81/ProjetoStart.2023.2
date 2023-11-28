@@ -1,0 +1,19 @@
+form{
+    display: grid;
+    width: 50%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.538);
+    border-radius: 50px;
+    padding: 10vh;
+    margin: 5vw 40vh;
+}
+
+form input{
+    background-color: #00bf638e;
+    height: 4vh;
+    margin-bottom: 4vh;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.523);
+}
+
+form label{
+    margin-bottom: 4vh;
+}

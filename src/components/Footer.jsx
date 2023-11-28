@@ -1,32 +1,30 @@
 import styles from './styles/Footer.css'
-
+const ajuda = ['Central de ajuda', 'Contate-nos', 'Política de privacidade', 'Termos', 'Suporte personalizado']
+const nosEncontre = ['Instagram', 'Website', 'LinkedIn', 'Telegram', '(00) 00000-0000']
+const compania = ['Sobre nós', 'Carreiras', 'Suporte', 'Preços', 'FAQ']
 export default function Footer() {
   return (
     <footer className='divFooter'>
-      <div><strong>Situação em andamento</strong>
-        <p>® 2023</p>
-      </div>
-      <div><strong>Nos encontre</strong>
-        <p>Instagram</p>
-        <p>Website</p>
-        <p>LinkedIn</p>
-        <p>Telegram</p>
-        <p>(00) 00000-0000</p>
-      </div>
-      <div><strong>Compania</strong>
-        <p>Sobre nós</p>
-        <p>Carreiras</p>
-        <p>Suporte</p>
-        <p>Preços</p>
-        <p>FAQ</p>
-      </div>
-      <div><strong>Ajuda</strong>
-        <p>Central de ajuda</p>
-        <p>Contate-nos</p>
-        <p>Política de privacidade</p>
-        <p>Termos</p>
-        <p>Suporte personalizado</p>
-      </div>
+      <ul><strong>Projeto VAI</strong>
+        <li>® 2023</li>
+      </ul>
+      <ul><strong>Nos encontre</strong>
+        {nosEncontre.map((e) => {
+          return <li>{e}</li>
+        })}
+      </ul>
+      <ul><strong>Compania</strong>
+        {compania.map((e) => {
+          return <li>{e}</li>
+        })}
+      </ul>
+      <ul><strong>Ajuda</strong>
+        {
+          ajuda.map((e) => {
+            return <li>{e}</li>
+          })
+        }
+      </ul>
     </footer>
 
   )

@@ -1,8 +1,12 @@
 .divFooter{
     display: flex;
     justify-content: space-around;
-    background-color: #00bb675b ;
-    color:#13544e;
+    background-color: #F4F2E5 ;
+    color:#000;
     padding-top: 5vh;
     border-radius: 5px;
+}
+
+.divFooter li{
+    list-style : none;
 }
