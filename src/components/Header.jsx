@@ -16,13 +16,13 @@ export default function Header() {
                             {opcoes.map((element) => {
                                 return <p className='linkHeader'> {element}</p>
                             })}
-                            <Link to={'/login'} className='linkB'><Button  type='button' value='Conecte-se' /></Link>
-                            <Link to={'/cadastro1'} className='linkB'><Button  type='button' value='Inscreva-se' /></Link>
+                            <Link to={'/login'} className='linkB'><Button type='button' value='Conecte-se' /></Link>
+                            <Link to={'/cadastro1'} className='linkB'><Button type='button' value='Inscreva-se' /></Link>
                         </div>
                     </div>
                 </header>
             )
-        } else if (page === '/login' || page === '/cadastro1') {
+        } else if (page === '/login' || page === '/cadastro1' || page === '/selecao') {
             return (
                 <header>
                     <div className='divHeader2'>
@@ -34,7 +34,7 @@ export default function Header() {
                 </header>
             )
         }
-         else if (page === '/user') {
+        else if (page === '/user' || page == '/home/:id') {
             return (
                 <header>
                     <div className='divHeader1'>
@@ -43,14 +43,13 @@ export default function Header() {
                             {opcoes.map((element) => {
                                 return <p className='linkHeader'> {element}</p>
                             })}
-                            <Link to={'/user'} className='linkB'><Button  type='button' value='Pesquisar' /></Link>
-                            <Link to={'/'} className='linkB'><Button  type='button' value='Sair' /></Link>
+                            <Link to={'/user'} className='linkB'><Button type='button' value='Pesquisar' /></Link>
+                            <Link to={'/'} className='linkB'><Button type='button' value='Sair' /></Link>
                         </div>
                     </div>
                 </header>
             )
         }
-
     }
     return (
         <nav>{headerDefault()}</nav>

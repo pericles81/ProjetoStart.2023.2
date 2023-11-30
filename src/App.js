@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import './App.css';
 import { Login } from './components/pages/Login';
 import { CardApi } from './components/pages/CardApi';
+import { SelecaoCadastro } from './components/pages/SelecaoCadastro';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/selecao" element={<SelecaoCadastro />} />
           <Route path="/cadastro1" element={<Cadastro />} />
           <Route path="/user" element={<CardApi />} />
           <Route path="/home/:id" element={<Home />} />
